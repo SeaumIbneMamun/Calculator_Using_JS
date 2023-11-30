@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="Images/pngfind.com-calculator-icon-png-2169224.png ">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Extra Elements/Digital clock.css">
+</head>
+
+<body>
+
+    
+
+   <div>
+
+
+
+
+
+
+    
+
+    <div class="container">
+
+    <br>
+
+    <table>
+
+        
+
+            <div colspan="3"><input type='' id='result' class ='screen' style="text-align: right;"></div>
+        
+
+            <div class="clockf">
+                <div class="clockb bodyc">
+                    
+                        
+                        <p id="hours">05</p>
+                        <p id="point">:</p>
+                        <p id="min">20</p>
+                        <p id="point">:</p>
+                        <p id="sec">30</p>
+                    
+                </div>
+                <div class="clock bodyc">
+                    <div id="Date">Sunday 26 November 2023</div>
+                    
+                </div>
+
+            </div>
+
+            
+
+            
+        
+            <div class="flex">
+                <div>
+                    <input type='button' value = 'A C' onclick="clearScreen()" class="clear"/>
+                </div>
+
+                <!-- <div>
+                    <input type='button' value = '⌫' onclick="backspace()" class="clear"/>
+                </div> -->
+            </div>
+    </table>
+
+    <div class="keys">
+
+    <input type="button" value="7" class="button" onClick="display('7')"></input>
+
+    <input type="button" value="8" class="button " onClick="display('8')"></input>
+
+    <input type="button" value="9" class="button" onClick="display('9')"></input>
+
+    <input type="button" value="/" class="operator" onClick="display('/')"></input>
+
+    <input type="button" value="4" class="button" onClick="display('4')"></input>
+
+    <input type="button" value="5" class="button" onClick="display('5')"></input>
+
+    <input type="button" value="6" class="button" onClick="display('6')"></input>
+
+    <input type="button" value="*" class="operator" onClick="display('*')"></input>
+
+    <input type="button" value="1" class="button" onClick="display('1')"></input>
+
+    <input type="button" value="2" class="button" onClick="display('2')"></input>
+
+    <input type="button" value="3" class="button" onClick="display('3')"></input>
+
+    <input type="button" value="-" class="operator" onClick="display('-')"></input>
+
+    <input type="button" value="0" class="button" onClick="display('0')"></input>
+
+    <input type="button" value="." class="button" onClick="display('.')"></input>
+
+    <input type="button" value= "=" class="button equal-sign" onClick="solve()"></input>
+
+    <input type="button" value="+" class="operator" onClick="display('+')"></input>
+
+</div> 
+
+</div>
+
+
+
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+    <script src="Calculator.js"></script>
+    <script src="Extra Elements/Digital clock.js"></script>
+
+</body>
+
+</html>

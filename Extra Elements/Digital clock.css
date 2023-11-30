@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Francois+One&family=Kdam+Thmor+Pro&family=Nova+Square&family=Vina+Sans&display=swap');
+
+
+.bodyc {
+    /* height: 100vh; */
+    width: fit-content;
+    /* font: bold ; */
+    font-family: 'Black Ops One', sans-serif;
+    
+}
+
+.clock {
+    border: 1px solid #606060;
+    color: white;
+    border-radius: 10px;
+    background-color: #899937;
+    color: black;
+    margin-right: 16px;
+    width: 63%;
+}
+
+#Date {
+    font-size: 14px !important;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.clockb {
+    background-color: darkslategrey;
+    border-radius: 10px;
+    border: #14edcf 1px solid;
+    margin-right: 8px;
+    width: 47%;
+    margin-left: 16px;
+    display: flex;
+}
+
+.clockb p {
+    list-style: none;
+    display: flex;
+    font-size: 27px;
+    padding-left: 6px;
+    color: ghostwhite;
+    margin-top: 8px;
+}
+
+
+
+
+.clockf {
+    display: flex;
+    height: 10%;
+}
